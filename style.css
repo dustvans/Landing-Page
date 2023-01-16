@@ -1,0 +1,21 @@
+.header-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.link1, .link2, .link3 {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-self: flex-end;
+}
