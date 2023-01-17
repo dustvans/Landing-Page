@@ -1,21 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .header-container {
     background-color: #1f2937;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
 }
 
 .header {
+    border: 20px #F9FAF8;
+    width: 900px;
     display: flex;
     justify-content: space-between;
 }
 
 .header-logo {
+    display: flex;
     color: #F9FAF8;
     font-size: 24px;
+    justify-content: flex-start;
 }
 
-.link1, .link2, .link3 {
+.links {
+    display: flex;
+    justify-content: flex-end;
     font-size: 18px;
     color: #E5E7EB;
-    align-self: flex-end;
+}
+
+.link2, .link3 {
+    margin-left: 20px;
 }
