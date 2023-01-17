@@ -36,3 +36,29 @@
 .link2, .link3 {
     margin-left: 20px;
 }
+
+.main {
+    background-color: #1f2937;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+}
