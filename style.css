@@ -54,6 +54,7 @@ p {
     font-size: 18px;
     color: #E5E7EB;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 button {
@@ -61,4 +62,13 @@ button {
     font-size: 18px;
     color: #E5E7EB;
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+img {
+    height: auto;
+    width: 320px;
 }
