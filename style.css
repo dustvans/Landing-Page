@@ -5,11 +5,12 @@
 }
 
 
-.header-container {
+.header-container, .main {
     background-color: #1f2937;
     padding: 10px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -37,13 +38,6 @@
     margin-left: 20px;
 }
 
-.main {
-    background-color: #1f2937;
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-}
 
 .main-text {
     font-size: 48px;
@@ -71,4 +65,9 @@ button {
 img {
     height: auto;
     width: 320px;
+}
+
+.dogPic {
+    display: inline;
+    padding-left: 20px;
 }
