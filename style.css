@@ -16,7 +16,7 @@
 
 .header {
     border: 20px #F9FAF8;
-    width: 900px;
+    width: 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -37,6 +37,18 @@
 
 .link2, .link3 {
     margin-left: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 
