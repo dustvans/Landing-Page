@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: 3px solid red;
+    background-color: #1f2937;
 }
 
 
@@ -83,4 +84,9 @@ img {
 .dogPic {
     display: inline;
     padding-left: 20px;
+}
+
+.row {
+    display: flex;
+    width: 70%;
 }
