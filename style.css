@@ -99,6 +99,6 @@ img {
 
 .rowImgs {
     display: flex;
-    background-color: #E5E7EB;
+    background-color: #b5b5b5;
     justify-content: center;
 }
