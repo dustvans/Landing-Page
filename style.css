@@ -89,4 +89,13 @@ img {
 .row {
     display: flex;
     width: 70%;
+    flex-wrap: wrap;
+}
+
+.rowh2 {
+    justify-content: center;
+}
+
+.rowImgs {
+    display: inline-flex;
 }
